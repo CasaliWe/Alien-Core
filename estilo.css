@@ -106,7 +106,7 @@ main{
 
 @media (max-width:800px){
     #logo img{width: 190px;}
-    #links button{padding: 12px;width: 70%;}
+    #links button{padding: 12px;width: 90%;}
     #footer h1{font-size: 24px;}
     #footer p{font-size: 15px;width: 80%;}
     #footer #txtFooter{margin-bottom: 5px;font-size: 14px;}
