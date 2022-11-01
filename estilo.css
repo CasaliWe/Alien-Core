@@ -294,14 +294,14 @@ footer{
     #footer p{font-size: 16px;width: 80%;}
     #footer #txtFooter{margin-bottom: 10px;font-size: 15px;}
     
-   #info-menu{ margin: 0px; padding: 12px; position: fixed; bottom: 0px;}
+   #info-menu{ margin: 0px 0px 25px 0px; padding: 10px;}
    #info-menu a{margin: 3px 7px;font-size: 12px;}
-   #info-conteudo{height: 650px; flex-direction: column; overflow: auto; border: 1px solid red; padding: 15px; margin-top: 70px;}  
-   #info-left{width: 90%;height: 300px;}
+   #info-conteudo{height: 600px;flex-direction: column; overflow: auto; border: 1px solid red;}  
+   #info-left{width: 90%;height: 400px;}
    #info-left h1{margin-bottom: 15px;margin-top: 10px;font-size: 20px;}
    #info-left p{width: 80%;font-size: 13px;}
    #info-left button{padding: 7px 10px;}
-   #info-right{margin: 10px;width: 90%;height: 240px;}
+   #info-right{margin: 10px;width: 90%;height: 280px;}
    #logo-float{display: none;}
    footer{margin-bottom: 20px; margin-top: 15px;}
 }
