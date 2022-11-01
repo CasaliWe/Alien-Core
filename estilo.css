@@ -296,7 +296,7 @@ footer{
     
    #info-menu{ margin: 0px 0px 25px 0px; padding: 10px;}
    #info-menu a{margin: 3px 7px;font-size: 12px;}
-   #info-conteudo{height: 600px;flex-direction: column; overflow: auto; border: 1px solid red;}  
+   #info-conteudo{height: 600px;flex-direction: column; overflow: auto;}  
    #info-left{width: 90%;height: 400px;}
    #info-left h1{margin-bottom: 15px;margin-top: 10px;font-size: 20px;}
    #info-left p{width: 80%;font-size: 13px;}
