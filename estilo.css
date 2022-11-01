@@ -294,17 +294,16 @@ footer{
     #footer p{font-size: 16px;width: 80%;}
     #footer #txtFooter{margin-bottom: 10px;font-size: 15px;}
     
-   #info-menu{ margin: 0px 0px 25px 0px;}
-   #info-menu a{margin: 4px 10px;font-size: 15px;}
-   #info-conteudo{height: 900px;flex-direction: column;}  
-   #info-left{width: 90%;height: 350px;}
-   #info-left h1{margin-bottom: 15px;margin-top: 10px;font-size: 25px;}
-   #info-left p{width: 90%;font-size: 15px;}
+   #info-menu{ margin: 0px 0px 25px 0px; padding: 10px;}
+   #info-menu a{margin: 3px 7px;font-size: 12px;}
+   #info-conteudo{height: 500px;flex-direction: column; overflow: auto;}  
+   #info-left{width: 90%;height: 450px;}
+   #info-left h1{margin-bottom: 15px;margin-top: 10px;font-size: 20px;}
+   #info-left p{width: 80%;font-size: 14px;}
    #info-left button{padding: 7px 10px;}
    #info-right{margin: 10px;width: 90%;height: 280px;}
-   #logo-float{top: -10px;width: 35px;}
-   footer{margin: 20px 10px;}
-
+   #logo-float{display: none;}
+   footer{margin-bottom: 20px; margin-top: 15px;}
 }
 
 
