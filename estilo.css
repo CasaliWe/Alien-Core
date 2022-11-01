@@ -106,6 +106,185 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*------------------------INFO PÁG -----------------------*/
+#info{
+     height: 100vh;
+}
+
+
+
+#info-menu{
+    width: 100%;
+    margin: 0px 0px 35px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 10px;
+}
+
+.active{
+     padding: 2px 6px;
+     border-left: 2px solid #13F75C;
+     border-right: 2px solid #13F75C;
+     border-radius: 5px;
+}
+
+#info-menu a{
+    margin: 5px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+#info-menu a:hover{
+    color: #13F75C;
+    transition: all 500ms;
+}
+
+
+#info-conteudo{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+}
+
+#logo-float{
+      position: absolute;
+      top: 0px;
+      width: 70px;
+      animation: logoGira 10s infinite normal;
+}
+
+@keyframes logoGira{
+      0%{transform: rotate(0deg);}
+      50%{transform: rotate(360deg);}
+      100%{transform: rotate(0deg);}
+}
+
+#info-left{
+     margin: 15px;
+     width: 45%;
+     height: 90%;
+     padding: 10px;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     flex-direction: column;
+     background-color: rgba(0, 0, 0, 0.521);
+     border-radius: 20px;
+}
+
+#info-left h1{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 1px 20px;
+    border-radius: 5px;
+}
+
+#info-left h1 span{
+    color: #13F75C;
+}
+
+
+
+
+#info-left p{
+    width: 80%;
+    font-size: 19px;
+    background-image: linear-gradient(to left, white, #13F75C);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+#info-left button{
+    color: #13F75C;
+    border: 1px solid #13F75C;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.068);
+    cursor: pointer;
+    transition: all 400ms;
+    margin-top: 15px;
+}
+
+#info-left button:hover{
+    color: white;
+    background-color: #13F75C;
+    transition: all 700ms;
+}
+
+
+
+
+
+
+
+
+#info-right{
+      margin: 15px;
+      width: 45%;
+      height: 90%;
+      border-radius: 20px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.521);
+}
+
+#info-right img{
+       width: 95%;
+       border-radius: 10px;
+}
+
+
+
+/*----------------------INTEGRANTES-----------------------*/
+#integrantes-conteudo{
+     width: 100%;
+     height: 460px;
+     border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+footer{
+        color: gray;
+        margin-top: 10px;
+}
+
+
+
+
+
+
+
 /*-------------------RESPONSIVO--------------------*/
 
 @media (max-width:800px){
@@ -114,6 +293,18 @@ main{
     #footer h1{font-size: 22px;}
     #footer p{font-size: 16px;width: 80%;}
     #footer #txtFooter{margin-bottom: 10px;font-size: 15px;}
+    
+   #info-menu{ margin: 0px 0px 25px 0px;}
+   #info-menu a{margin: 4px 10px;font-size: 15px;}
+   #info-conteudo{height: 900px;flex-direction: column;}  
+   #info-left{width: 90%;height: 350px;}
+   #info-left h1{margin-bottom: 15px;margin-top: 10px;font-size: 25px;}
+   #info-left p{width: 90%;font-size: 15px;}
+   #info-left button{padding: 7px 10px;}
+   #info-right{margin: 10px;width: 90%;height: 280px;}
+   #logo-float{top: -10px;width: 35px;}
+   footer{margin: 20px 10px;}
+
 }
 
 
