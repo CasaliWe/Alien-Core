@@ -149,14 +149,14 @@
     
     
     #info-conteudo{
-        height: 100vh;
+        height: 550px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         overflow: scroll;
         position: relative;
-        padding: 10px;
+        padding: 15px;
     }
     
     #logo-float{
@@ -204,25 +204,33 @@
     
     
     #info-left p{
-        width: 95%;
-        font-size: 18px;
+        width: 70%;
+        font-size: 17px;
         background-image: linear-gradient(to left, white, #13F75C);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
         text-align: center;
     }
+
+    #info-left img{
+        display: block;
+        width: 250px;
+        margin: 10px;
+        border-radius: 10px;
+    }
     
     #info-left button{
         color: #13F75C;
         border: 1px solid #13F75C;
         border-radius: 10px;
-        padding: 10px 20px;
+        padding: 5px 10px;
         background-color: rgba(255, 255, 255, 0.068);
         cursor: pointer;
         transition: all 400ms;
         margin-top: 10px;
-        font-size: 16px;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
     
     #info-left button:hover{
@@ -532,6 +540,7 @@
     footer{
             color: gray;
             margin-top: 10px;
+            margin-bottom: 15px;
     }
     
 }

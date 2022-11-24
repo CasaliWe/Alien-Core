@@ -216,6 +216,11 @@ main{
     text-align: center;
 }
 
+
+#imgBandaMobile{
+     display: none;
+}
+
 #info-left button{
     color: #13F75C;
     border: 1px solid #13F75C;
