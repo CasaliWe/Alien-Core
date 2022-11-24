@@ -1,0 +1,533 @@
+@media (max-width: 950px){
+
+    body{
+         background-image: url('img/bkg.jpg');
+         background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         font-family: 'Barlow', sans-serif;
+    }
+    
+    main{
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.507);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    
+    /*----------------------LOGO---------------------*/
+    #logo{
+          width: 100%;
+          text-align: center;
+          padding: 5px;
+          margin: 10px 0px;
+    }
+    
+    #logo img{
+        width: 150px;
+    }
+    
+    
+    /*-------------------LINKS------------------*/
+    #links{
+          width: 100%;
+          margin-top: 10px;
+          margin-bottom: 30px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+    }
+    
+    #links button{
+        margin: 10px;
+        padding: 15px;
+        width: 90%;
+        color: white;
+        border-radius: 20px;
+        border: 1px solid black;
+        font-size: 15px;
+        background-image: linear-gradient(to bottom, #13F75C 20%, black);
+        cursor: pointer;
+        transition: all 500ms;
+    }
+    
+    #links button:hover{
+        background-image: linear-gradient(to bottom, #13F75C 50%, black);
+        color: black;
+        border: 1px solid transparent;
+        transform: scale(1.01);
+        box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.521);
+        transition: all 500ms;
+    }
+    
+    
+    
+    /*----------------FOOTER PRIMEIRA PÁG----------------*/
+    #footer{
+          width: 100%;
+          padding: 20px 20px 2px 0px;
+          background-color: rgba(0, 0, 0, 0.637);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+    }
+    
+    #footer h1{
+         color: #13F75C;
+         font-size: 22px;
+         margin-bottom: 10px;
+    }
+    
+    #footer p{
+        color: white;
+        font-size: 14px;
+        width: 75%;
+        text-align: center;
+    }
+    
+    #footer #txtFooter{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        color: gray;
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*------------------------INFO PÁG -----------------------*/
+    #info{
+         height: 100vh;
+    }
+    
+    
+    
+    #info-menu{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.521);
+        padding: 10px;
+    }
+    
+    .active{
+         padding: 2px 6px;
+         border-left: 2px solid #13F75C;
+         border-right: 2px solid #13F75C;
+         border-radius: 5px;
+    }
+    
+    #info-menu a{
+        margin: 5px 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    
+    #info-menu a:hover{
+        color: #13F75C;
+        transition: all 500ms;
+    }
+    
+    
+    #info-conteudo{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #logo-float{
+          position: absolute;
+          top: 10px;
+          left: 20px;
+          width: 30px;
+          animation: logoGira 10s infinite normal;
+          display: none;
+    }
+    
+    @keyframes logoGira{
+          0%{transform: rotate(0deg);}
+          50%{transform: rotate(360deg);}
+          100%{transform: rotate(0deg);}
+    }
+    
+    #info-left{
+         margin: 15px;
+         width: 90%;
+         height: 350px;
+         padding: 5px;
+         display: flex;
+         justify-content: start;
+         align-items: center;
+         flex-direction: column;
+         background-color: rgba(0, 0, 0, 0.521);
+         border-radius: 20px;
+    }
+    
+    #info-left h1{
+        color: white;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-size: 22px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 1px 20px;
+        border-radius: 5px;
+    }
+    
+    #info-left h1 span{
+        color: #13F75C;
+    }
+    
+    
+    #info-left p{
+        width: 95%;
+        font-size: 15px;
+        background-image: linear-gradient(to left, white, #13F75C);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        text-align: center;
+    }
+    
+    #info-left button{
+        color: #13F75C;
+        border: 1px solid #13F75C;
+        border-radius: 10px;
+        padding: 5px 10px;
+        background-color: rgba(255, 255, 255, 0.068);
+        cursor: pointer;
+        transition: all 400ms;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    
+    #info-left button:hover{
+        color: white;
+        background-color: #13F75C;
+        transition: all 700ms;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #info-right{
+          margin: 15px;
+          width: 90%;
+          height: 300px;
+          border-radius: 20px;
+          padding: 2px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: rgba(0, 0, 0, 0.521);
+    }
+    
+    #info-right img{
+           width: 98%;
+           border-radius: 10px;
+    }
+    
+    
+    
+    /*----------------------INTEGRANTES-----------------------*/
+    #integrantes-conteudo{
+         width: 100%;
+         height: 90vh;
+         overflow: hidden;
+    }
+    
+    #index-select{
+           height: 100%;
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+           overflow: scroll;
+    }
+    
+    .paiMargin{
+          margin: 10px;
+    }
+    
+    .paiMargin div{
+        width: 180px;
+    }
+    
+    #index-select img{
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    #index-select img:hover{
+        box-shadow: 0px 0px 10px #13F75C;
+        transition: all 500ms;
+    }
+    
+    .selectImage{
+        box-shadow: 0px 0px 10px #13F75C; 
+    }
+    
+    
+    
+    /*-----------------------------Wes----------------------------*/
+    #i-1{
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: scroll;
+            display: none;
+    }
+    
+    #i-1 #imgWes{
+        width: 90%;
+        height: 45%;
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        overflow: hidden;
+    }
+    
+    #i-1 img{
+        width: 70%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px white;
+    }
+
+    #i-1 #divWes{
+        width: 90%;
+        height: 45%;
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    #i-1 #divWes h1{
+        width: 100%;
+        text-align: center;
+        color: #13F75C;
+    }
+    
+    #i-1 p{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    /*--------------------------Wes---------------------------------*/
+    
+    
+    
+    
+    /*--------------------------Wil---------------------------------*/
+#i-2{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    display: none;
+}
+
+#i-2 #imgWil{
+    width: 90%;
+    height: 45%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#i-2 img{
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px white;
+}
+
+#i-2 #divWil{
+    width: 90%;
+    height: 45%;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#i-2 #divWil h1{
+    width: 100%;
+    text-align: center;
+    color: #13F75C;
+}
+
+#i-2 p{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+    
+    /*--------------------------Wil---------------------------------*/
+    
+    
+    
+    
+    
+    /*--------------------------Vini---------------------------------*/
+    #i-3{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+        display: none;
+    }
+    
+    #i-3 #imgVini{
+        width: 90%;
+        height: 45%;
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        overflow: hidden;
+    }
+    
+    #i-3 img{
+        width: 70%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px white;
+    }
+    
+    #i-3 #divVini{
+        width: 90%;
+        height: 45%;
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    #i-3 #divVini h1{
+        width: 100%;
+        text-align: center;
+        color: #13F75C;
+    }
+    
+    #i-3 p{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    /*--------------------------Vini---------------------------------*/
+    
+    
+    
+    
+    
+    /*--------------------------Gab---------------------------------*/
+    #i-4{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+        display: none;
+    }
+    
+    #i-4 #imgGabe{
+        width: 90%;
+        height: 45%;
+        padding: 10px;
+        text-align: center;
+        margin: 10px;
+        overflow: hidden;
+    }
+    
+    #i-4 img{
+        width: 70%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px white;
+    }
+    
+    #i-4 #divGabe{
+        width: 90%;
+        height: 45%;
+        padding: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    #i-4 #divGabe h1{
+        width: 100%;
+        text-align: center;
+        color: #13F75C;
+    }
+    
+    #i-4 p{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
+    
+    /*--------------------------Gab---------------------------------*/
+    
+    
+    .back{
+         position:fixed;
+         top: 80px;
+         left: 30px;
+         border: 1px solid transparent;
+         background-color: transparent;
+         font-size: 25px;
+         color: #13F75C;
+    }
+    
+    .back:hover{
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    
+    /*-------------------------COPY FOOTER---------------------------*/
+    footer{
+            color: gray;
+            margin-top: 10px;
+    }
+    
+}

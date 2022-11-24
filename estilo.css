@@ -74,7 +74,7 @@ main{
 
 
 
-/*----------------FOOTER----------------*/
+/*----------------FOOTER PRIMEIRA PÁG----------------*/
 #footer{
       width: 100%;
       padding: 20px 20px 2px 0px;
@@ -264,7 +264,215 @@ main{
 #integrantes-conteudo{
      width: 100%;
      height: 460px;
-     border: 1px solid red;
+}
+
+#index-select{
+       height: 100%;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.paiMargin{
+      margin: 10px;
+}
+
+.paiMargin div{
+    width: 180px;
+}
+
+#index-select .paiMargin h3{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#index-select img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#index-select img:hover{
+    box-shadow: 0px 0px 10px #13F75C;
+    transition: all 500ms;
+}
+
+.selectImage{
+    box-shadow: 0px 0px 10px #13F75C; 
+}
+
+
+
+/*-----------------------------Wes----------------------------*/
+#i-1{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: none;
+}
+
+#i-1 div{
+    width: 45%;
+    padding: 10px;
+    text-align: end;
+    margin: 10px;
+}
+
+#i-1 img{
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px white;
+}
+
+#i-1 h1{
+    width: 50%;
+    text-align: start;
+    color: #13F75C;
+}
+
+#i-1 p{
+    width: 50%;
+    text-align: start;
+    color: white;
+}
+/*--------------------------Wes---------------------------------*/
+
+
+
+
+/*--------------------------Wil---------------------------------*/
+#i-2{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#i-2 div{
+width: 45%;
+padding: 10px;
+text-align: end;
+margin: 10px;
+}
+
+#i-2 img{
+width: 200px;
+border-radius: 10px;
+box-shadow: 0px 0px 3px white;
+}
+
+#i-2 h1{
+width: 50%;
+text-align: start;
+color: #13F75C;
+}
+
+#i-2 p{
+width: 50%;
+text-align: start;
+color: white;
+}
+
+/*--------------------------Wil---------------------------------*/
+
+
+
+
+
+/*--------------------------Vini---------------------------------*/
+#i-3{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#i-3 div{
+width: 45%;
+padding: 10px;
+text-align: end;
+margin: 10px;
+}
+
+#i-3 img{
+width: 200px;
+border-radius: 10px;
+box-shadow: 0px 0px 3px white;
+}
+
+#i-3 h1{
+width: 50%;
+text-align: start;
+color: #13F75C;
+}
+
+#i-3 p{
+width: 50%;
+text-align: start;
+color: white;
+}
+
+/*--------------------------Vini---------------------------------*/
+
+
+
+
+
+/*--------------------------Gab---------------------------------*/
+#i-4{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#i-4 div{
+width: 45%;
+padding: 10px;
+text-align: end;
+margin: 10px;
+}
+
+#i-4 img{
+width: 200px;
+border-radius: 10px;
+box-shadow: 0px 0px 3px white;
+}
+
+#i-4 h1{
+width: 50%;
+text-align: start;
+color: #13F75C;
+}
+
+#i-4 p{
+width: 50%;
+text-align: start;
+color: white;
+}
+
+/*--------------------------Gab---------------------------------*/
+
+
+.back{
+     position:fixed;
+     top: 80px;
+     left: 30px;
+     border: 1px solid transparent;
+     background-color: transparent;
+     font-size: 25px;
+     color: #13F75C;
+}
+
+.back:hover{
+    color: white;
+    cursor: pointer;
 }
 
 
@@ -272,38 +480,9 @@ main{
 
 
 
-
-
+/*-------------------------COPY FOOTER---------------------------*/
 footer{
         color: gray;
         margin-top: 10px;
 }
-
-
-
-
-
-
-
-/*-------------------RESPONSIVO--------------------*/
-
-@media (max-width:800px){
-    #logo img{width: 230px;}
-    #links button{padding: 15px;width: 75%; font-size: 15px;}
-    #footer h1{font-size: 22px;}
-    #footer p{font-size: 16px;width: 80%;}
-    #footer #txtFooter{margin-bottom: 10px;font-size: 15px;}
-    
-   #info-menu{ margin: 0px 0px 25px 0px; padding: 10px;}
-   #info-menu a{margin: 3px 7px;font-size: 12px;}
-   #info-conteudo{height: 800px;flex-direction: column; overflow: auto;}  
-   #info-left{width: 90%;height: 400px; margin-bottom: 20px;}
-   #info-left h1{margin-bottom: 15px;margin-top: 10px;font-size: 20px;}
-   #info-left p{width: 80%;font-size: 13px;}
-   #info-left button{padding: 7px 10px;}
-   #info-right{margin: 10px;width: 90%;height: 280px;}
-   #logo-float{display: none;}
-   footer{margin-bottom: 10px; margin-top: 15px;}
-}
-
 
