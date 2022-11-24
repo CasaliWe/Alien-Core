@@ -177,7 +177,7 @@
     #info-left{
          margin: 15px;
          width: 90%;
-         height: 70%;
+         height: 90%;
          overflow: scroll;
          padding: 10px;
          display: flex;
@@ -192,7 +192,7 @@
         color: white;
         margin-bottom: 10px;
         margin-top: 5px;
-        font-size: 22px;
+        font-size: 30px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
         padding: 1px 20px;
         border-radius: 5px;
@@ -205,7 +205,7 @@
     
     #info-left p{
         width: 95%;
-        font-size: 15px;
+        font-size: 20px;
         background-image: linear-gradient(to left, white, #13F75C);
         background-clip: text;
         -webkit-background-clip: text;
@@ -217,12 +217,12 @@
         color: #13F75C;
         border: 1px solid #13F75C;
         border-radius: 10px;
-        padding: 5px 10px;
+        padding: 10px 20px;
         background-color: rgba(255, 255, 255, 0.068);
         cursor: pointer;
         transition: all 400ms;
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 16px;
     }
     
     #info-left button:hover{
@@ -249,6 +249,7 @@
           align-items: center;
           flex-direction: column;
           background-color: rgba(0, 0, 0, 0.521);
+          display: none;
     }
     
     #info-right img{
