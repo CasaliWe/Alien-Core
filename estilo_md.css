@@ -113,6 +113,7 @@
     /*------------------------INFO PÁG -----------------------*/
     #info{
          height: 100vh;
+         overflow: hidden;
     }
     
     
@@ -153,8 +154,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        overflow: hidden;
+        overflow: scroll;
         position: relative;
+        padding: 10px;
     }
     
     #logo-float{
@@ -175,8 +177,9 @@
     #info-left{
          margin: 15px;
          width: 90%;
-         height: 350px;
-         padding: 5px;
+         height: 70%;
+         overflow: scroll;
+         padding: 10px;
          display: flex;
          justify-content: start;
          align-items: center;
@@ -238,7 +241,7 @@
     #info-right{
           margin: 15px;
           width: 90%;
-          height: 300px;
+          height: 35%;
           border-radius: 20px;
           padding: 2px;
           display: flex;
